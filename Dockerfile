@@ -11,4 +11,4 @@ RUN apt-get update \
 
 COPY src/run.py run.py
 
-RUN python run.py
+RUN python -u run.py
