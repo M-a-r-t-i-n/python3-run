@@ -1,4 +1,9 @@
+import getpass
 print ("testline start")
-name = input("ID:")
+id  = input("Userid:")
+pwd = getpass.getpass()
 print (name)
+print (pwd)
+pwd=""
+name""
 print ("testline end")
